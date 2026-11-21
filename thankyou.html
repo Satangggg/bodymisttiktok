@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ขอบคุณที่สั่งซื้อ — Body Scent</title>
+  <meta name="robots" content="noindex">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .thanks {
+      display: flex;
+      align-items: center;
+      min-height: calc(100vh - 4.5rem);
+      min-height: calc(100svh - 4.5rem);
+      padding-block: var(--space-5);
+      background: linear-gradient(180deg, var(--ivory) 0%, var(--cream) 100%);
+      text-align: center;
+    }
+    .thanks .container { display: flex; flex-direction: column; align-items: center; }
+    .thanks h1 { font-size: clamp(2.1rem, 5vw, 3.5rem); margin-bottom: var(--space-2); }
+    .thanks .lead { margin: 0 auto var(--space-4); }
+    .thanks .icon-ring { margin-bottom: var(--space-3); width: 4rem; height: 4rem; }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="index.html">Body Scent</a>
+      <nav aria-label="เมนูหลัก">
+        <ul class="nav">
+          <li><a href="index.html">หน้าแรก</a></li>
+          <li><a href="product.html">สินค้า</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="thanks">
+      <div class="container">
+        <span class="icon-ring" aria-hidden="true"><span class="mood-dot"></span></span>
+        <h1>ขอบคุณที่สั่งซื้อ</h1>
+        <p class="lead">เราได้รับคำสั่งซื้อของคุณเรียบร้อยแล้ว และจะติดต่อกลับเพื่อยืนยันในเร็วๆ นี้</p>
+        <a class="btn" href="index.html">กลับหน้าแรก</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>&copy; 2026 Body Scent</span>
+      <ul class="footer-links">
+        <li><a href="index.html">หน้าแรก</a></li>
+        <li><a href="product.html">สินค้า</a></li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+</html>
